@@ -77,10 +77,6 @@ namespace mis_221_pa_5_alyork2
             string[] sections;
             
 
-
-
-
-
             Console.WriteLine("What part of the trainer information that you would like to edit?");
             input = Console.ReadLine();
 
@@ -106,6 +102,7 @@ namespace mis_221_pa_5_alyork2
                     else 
                     {
                         foundTrainer = false;
+                        fileIn.Close();
                     }
                 }
 
@@ -124,6 +121,7 @@ namespace mis_221_pa_5_alyork2
                     else 
                     {
                         foundTrainer = false;
+                        fileIn.Close();
                     }
                 }
                 else if(input == "mailing address")
@@ -140,6 +138,7 @@ namespace mis_221_pa_5_alyork2
                     else
                     {
                         foundTrainer = false;
+                        fileIn.Close();
                     }
                 }
             
@@ -157,6 +156,7 @@ namespace mis_221_pa_5_alyork2
                     else
                     {
                         foundTrainer = false;
+                        fileIn.Close();
                     }
                 }
                 else
