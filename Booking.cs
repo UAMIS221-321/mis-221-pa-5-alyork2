@@ -36,7 +36,7 @@ namespace mis_221_pa_5_alyork2
             return customerName;
         }
 
-        public void SetCusrName(string cusName)
+        public void SetCusName(string cusName)
         {
             this.customerName = cusName;
         }

@@ -1,0 +1,15 @@
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\bin\Debug\net6.0\mis-221-pa-5-alyork2.exe
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\bin\Debug\net6.0\mis-221-pa-5-alyork2.deps.json
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\bin\Debug\net6.0\mis-221-pa-5-alyork2.runtimeconfig.json
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\bin\Debug\net6.0\mis-221-pa-5-alyork2.dll
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\bin\Debug\net6.0\mis-221-pa-5-alyork2.pdb
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\obj\Debug\net6.0\mis-221-pa-5-alyork2.csproj.AssemblyReference.cache
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\obj\Debug\net6.0\mis-221-pa-5-alyork2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\obj\Debug\net6.0\mis-221-pa-5-alyork2.AssemblyInfoInputs.cache
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\obj\Debug\net6.0\mis-221-pa-5-alyork2.AssemblyInfo.cs
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\obj\Debug\net6.0\mis-221-pa-5-alyork2.csproj.CoreCompileInputs.cache
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\obj\Debug\net6.0\mis-221-pa-5-alyork2.dll
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\obj\Debug\net6.0\refint\mis-221-pa-5-alyork2.dll
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\obj\Debug\net6.0\mis-221-pa-5-alyork2.pdb
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\obj\Debug\net6.0\mis-221-pa-5-alyork2.genruntimeconfig.cache
+C:\Users\ayork\MIS 221\mis-221-pa-5-alyork2\obj\Debug\net6.0\ref\mis-221-pa-5-alyork2.dll
