@@ -17,7 +17,13 @@ int cost;
 bool status2;
 string status;
 
-
+int sessionID; 
+string cusName;
+string cusEmail;
+string bookDate;
+int trainID;
+string trainName;
+string bookStatus;
 
 //Menu
 
@@ -238,6 +244,130 @@ while(input != 5)
             input2 = int.Parse(Console.ReadLine());
         }
         if(input == 3)
+        {
+            Console.WriteLine("Would you view/book a session (1), cancel a session(2), mark a session as complete (3) or none of the above(4)");
+            input2 = int.Parse(Console.ReadLine());
+            while(input2 != 4)
+            {
+                if(input2 == 1)
+                {
+                    Console.WriteLine("Please enter your booking information, starting with sessionID");
+                    sessionID = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Now customer name: ");
+                    cusName = Console.ReadLine();
+
+                    Console.WriteLine("Now customer Email: ");
+                    cusEmail = Console.ReadLine();
+
+                    Console.WriteLine("Now date: ");
+                    bookDate = Console.ReadLine();
+
+                    Console.WriteLine("Now trainer ID");
+                    trainID = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Now trainer name: ");
+                    trainName = Console.ReadLine();
+
+                    Console.WriteLine("And finally booking status: ");
+                    bookStatus = Console.ReadLine();
+
+                    Booking newBooking = new Booking(sessionID, cusName, cusEmail, bookDate, trainID, trainName, bookStatus);
+                    newBooking.GetSessionID();
+                    newBooking.GetCusName();
+                    newBooking.GetCusEmail();
+                    newBooking.GetDate();
+                    newBooking.GetTrainID();
+                    newBooking.GetTrainName();
+                    newBooking.GetStatus();
+
+
+                    newBooking.ViewSession();
+                    newBooking.BookingInformation();
+
+                }
+                else if(input2 == 2)
+                {
+                    Console.WriteLine("Please enter your booking information, starting with sessionID");
+                    sessionID = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Now customer name: ");
+                    cusName = Console.ReadLine();
+
+                    Console.WriteLine("Now customer Email: ");
+                    cusEmail = Console.ReadLine();
+
+                    Console.WriteLine("Now date: ");
+                    bookDate = Console.ReadLine();
+
+                    Console.WriteLine("Now trainer ID");
+                    trainID = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Now trainer name: ");
+                    trainName = Console.ReadLine();
+
+                    Console.WriteLine("And finally booking status: ");
+                    bookStatus = Console.ReadLine();
+
+                    Booking cancelBooking = new Booking(sessionID, cusName, cusEmail, bookDate, trainID, trainName, bookStatus);
+                    cancelBooking.GetSessionID();
+                    cancelBooking.GetCusName();
+                    cancelBooking.GetCusEmail();
+                    cancelBooking.GetDate();
+                    cancelBooking.GetTrainID();
+                    cancelBooking.GetTrainName();
+                    cancelBooking.GetStatus();
+
+
+                    cancelBooking.CancelledSession();
+                    cancelBooking.BookingInformation();
+                }
+                else if(input2 == 3)
+                {
+                    Console.WriteLine("Please enter your booking information, starting with sessionID");
+                    sessionID = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Now customer name: ");
+                    cusName = Console.ReadLine();
+
+                    Console.WriteLine("Now customer Email: ");
+                    cusEmail = Console.ReadLine();
+
+                    Console.WriteLine("Now date: ");
+                    bookDate = Console.ReadLine();
+
+                    Console.WriteLine("Now trainer ID");
+                    trainID = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Now trainer name: ");
+                    trainName = Console.ReadLine();
+
+                    Console.WriteLine("And finally booking status: ");
+                    bookStatus = Console.ReadLine();
+
+                    Booking completeBooking = new Booking(sessionID, cusName, cusEmail, bookDate, trainID, trainName, bookStatus);
+                    completeBooking.GetSessionID();
+                    completeBooking.GetCusName();
+                    completeBooking.GetCusEmail();
+                    completeBooking.GetDate();
+                    completeBooking.GetTrainID();
+                    completeBooking.GetTrainName();
+                    completeBooking.GetStatus();
+
+
+                    completeBooking.FinishedSession();
+                    completeBooking.BookingInformation();
+                }
+                else
+                {
+                    Console.WriteLine("Please enter a valid number");
+                }
+                Console.WriteLine();
+                Console.WriteLine("Would you view/book a session (1), cancel a session(2), mark a session as complete (3) or none of the above(4)");
+                input2 = int.Parse(Console.ReadLine());
+            }
+        }
+        if(input == 4)
         {
             
         }
